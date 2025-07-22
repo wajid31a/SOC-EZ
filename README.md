@@ -26,11 +26,13 @@ This project uses API keys to access certain services. To keep your keys secure,
 
 1. In the project root folder, create a file named `.env`.
 
-2. Add your API keys in the following format (replace with your actual keys):
+2. Add your API keys in the following format (VT_API_KEY=xxxxxxxkey):
 
-3. Clone or download the repo.
+3. Save the `.env` file.
+      
+4. When you run the app, it will automatically load the keys from `.env`.
 
-4. Open terminal and navigate to the project folder:
+5. Open terminal and navigate to the project folder:
    ```bash
    cd soc_dashboard
    python qt_app.py
